@@ -13,12 +13,15 @@ body {
 	font-family: "heavy";
 	text-align: center;
 	margin: 0px;
+	height:100%
+}
+html {
+	height: 100%
 }
 #headInfo {
 	background-image: url('images/bg2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
 	font-family: "kai";
 	color:lightgrey;
 }
