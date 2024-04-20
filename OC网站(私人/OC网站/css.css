@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "heavy"; /* 自定义字体的名字 */
+	src: url("fonts/heavy.ttf") format("opentype"); /* 字体文件的路径和格式 */
+	font-display: block
+}
+@font-face {
+	font-family: "kai"; /* 自定义字体的名字 */
+	src: url("fonts/kai-Simplified-Chinese.ttf"); /* 字体文件的路径和格式 */
+	font-display: block
+}
+
+body {
+	font-family: "heavy";
+	text-align: center;
+	margin: 0px;
+}
+#headInfo {
+	background-image: url('images/bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	font-family: "kai";
+	color:lightgrey;
+}
+#mainText {
+	margin: 5%;
+	font-size: larger;
+	color:lightgrey;
+}
+#main {
+	background-image: url('images/bg1.jpg');
+}
